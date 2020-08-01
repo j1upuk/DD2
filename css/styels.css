@@ -1,0 +1,50 @@
+
+.foNimg {
+    background-image: url("../images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+
+}
+
+
+.naVi {
+    display: flex;
+    flex-basis: 500px;
+    justify-content: space-between;
+}
+
+.navigation {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .navigation {
+
+
+    }
+
+    .main {
+        flex: 0 0 66.666667%;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .navigation {
+        height: 25vh;
+        width: 100vh;
+        justify-content: stretch ;
+           }
+
+    .logo {
+
+
+    }
+}
